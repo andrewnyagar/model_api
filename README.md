@@ -22,7 +22,7 @@ Before installation, you must have installed [Python 3.7](https://www.python.org
 ### Cloning
 After the installations, clone this repo to your local machine using `https://github.com/andrewnyagar/model_api.git`
 ```
-git clone git clone https://github.com/jama5262/blood-donation-system-web.git
+git clone https://github.com/andrewnyagar/model_api.git
 
 ```
 
