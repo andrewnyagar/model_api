@@ -9,6 +9,11 @@ yapf = "*"
 [packages]
 django = "==2.2"
 djangorestframework = "*"
+django-crispy-forms = "*"
+pandas = "*"
+sklearn = "*"
+numpy = "*"
+pickle = "*"
 
 [requires]
 python_version = "3.7"
