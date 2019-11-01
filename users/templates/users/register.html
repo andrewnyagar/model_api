@@ -9,9 +9,9 @@
         <legend class="border-bottom mb-4">Join Today</legend>
         {{form|crispy}}
     </fieldset>
-    <button class="btn btn-primary" type="submit">Sign Up</button>
+    <button class="btn btn-primary mb-2" type="submit">Sign Up</button>
 </form>
-<div class="border-top pt-3"><small class="text-muted">Already Have an Account? <a class="ml-2" href="#">Sign In</a></small>
+<div class="border-top pt-3"><small class="text-muted">Already Have an Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a></small>
 </div>
 
 {% endblock content %}

@@ -6,6 +6,7 @@ from .forms import TurnoverForm
 from django.contrib import messages
 
 from .model_pkl import attrition_model
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
@@ -13,7 +14,7 @@ class TurnoverViewset(viewsets.ModelViewSet):
     queryset = Turnover.objects.all()
     serializer_class = TurnoverSerializer
 
-
+@login_required
 def PostData(request):
     if request.method == "POST":
         form = TurnoverForm(request.POST)

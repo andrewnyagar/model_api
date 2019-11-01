@@ -6,7 +6,6 @@ from sklearn.preprocessing import LabelEncoder
 
 def getData(data):
     model = load_model()
-    print("GOT MODEL")
     print(data)
     df = dictToDf(data)
     # print("Data Type", df.head())
